@@ -6,6 +6,11 @@ import { SafeAreaView as RNSafeAreaView} from "react-native-safe-area-context";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
+/**
+ * Renders the app's main screen wrapped in a NativeWind-styled safe area with navigation links.
+ *
+ * @returns A React element representing the app's root UI containing a welcome message and navigation links.
+ */
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
